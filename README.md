@@ -1,2 +1,2 @@
-# html css js
- Mini projetos e materiais de estudo
+# Mini projetos e materiais de estudo
+ Utilizando: HTML, CSS e JS
