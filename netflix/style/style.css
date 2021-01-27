@@ -9,7 +9,7 @@
 }
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color: #FFF;
 }
 
@@ -20,7 +20,7 @@ header .container {
 }
 
 .logo {
-    margin-left: 5px;
+    margin-left: 30px;
     color: var(--vermelho);
     font-family: 'Arial Black';
     font-size: 40px;
@@ -42,12 +42,58 @@ header nav a:hover {
 
 .filme-principal {
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa.jpg');
-    height: 400px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('../img/capa.png');
+    height: 500px;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+}
+.filme-principal .container {
+    margin-left: 30px;
+    width: 70%;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.titulo {
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 15px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover {
+    background-color: white;
+    color: black;
+}
+
+.botao i {
+    margin-right: 5px;
+}
+
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 10px;
 }
