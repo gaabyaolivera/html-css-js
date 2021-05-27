@@ -110,21 +110,27 @@
         <section class="orcamento">
             <div class="container">
                 <h2 class="subtitulo">Orçamento</h2>
-                <form id="form_orcamento" class="grid-8 form">
-
+                <form method="POST" action="enviar-sendgrid.php" id="form_orcamento" class="grid-8 form formphp">
+                    
                     <label for="nome">Nome</label>
-                    <input type="text" name="" id="nome">
+                    <input type="text" name="nome" id="nome" required>
 
                     <label for="email">E-mail</label>
-                    <input type="email" name="" id="email">
+                    <input type="email" name="email" id="email" required>
 
                     <label for="telefone">Telefone</label>
-                    <input type="tel" name="" id="telefone">
+                    <input type="tel" name="telefone" id="telefone">
 
-                    <label for="espec">Especificações</label>
-                    <textarea name="" id="espec"></textarea>
+					<label class="nao-aparece">Se você não é um robô, deixe em branco.</label>
+					<input type="text" class="nao-aparece" name="leaveblank">
+					<label class="nao-aparece">Se você não é um robô, não mude este campo.</label>
+					<input type="text" class="nao-aparece" name="dontchange" value="http://">
 
-                    <button type="submit" class="btn">Enviar</button>
+                    <label for="mensagem">Mensagem</label>
+                    <textarea name="mensagem" id="mensagem" required></textarea>
+
+                    <button id="enviar" name="enviar" type="submit" class="btn">Enviar</button>
+
                 </form>
 
                 <div class="orcamento_dados grid-8">
@@ -191,6 +197,7 @@
 		</footer>
 
         <script src="js/simple-anime.js"></script>
+        <script src="js/simple-form.js"></script>
 		<script src="js/script.js"></script>
 	</body>
 </html>
