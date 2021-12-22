@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?augmo0');
+  src:  url('fonts/icomoon.eot?augmo0#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?augmo0') format('truetype'),
+    url('fonts/icomoon.woff?augmo0') format('woff'),
+    url('fonts/icomoon.svg?augmo0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-emoji_food_beverage:before {
+  content: "\e900";
+}
+.icon-local_restaurant:before {
+  content: "\e901";
+}
+.icon-restaurant_menu:before {
+  content: "\e901";
+}
+.icon-phone:before {
+  content: "\e902";
+}
+.icon-close:before {
+  content: "\e903";
+}
+.icon-facebook:before {
+  content: "\e904";
+}
+.icon-instagram:before {
+  content: "\e905";
+}
+.icon-mail:before {
+  content: "\e906";
+}
+.icon-map-pin:before {
+  content: "\e907";
+}
+.icon-menu:before {
+  content: "\e908";
+}
+.icon-whatsapp:before {
+  content: "\e909";
+}
+.icon-youtube:before {
+  content: "\e90a";
+}
+.icon-food:before {
+  content: "\e90b";
+}
+.icon-lunch:before {
+  content: "\e90b";
+}
+.icon-soup:before {
+  content: "\e90b";
+}
